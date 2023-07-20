@@ -1,0 +1,141 @@
+    /* ####################################################
+    :: Template Name: Essence - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+    :: Version: 1.0.0
+    :: Created: April 27, 2018
+    :: Last Updated: May 2, 2018
+    #################################################### */
+
+    /* ---------------------------------------
+    ##### - PLACE YOUR CUSTOM CSS HERE - #####
+    --------------------------------------- */
+
+    .hover-img:hover{
+        transform: scale(1.1);
+      }
+
+    .my-slider-progress {
+      background: #ccc;
+    }
+    
+    .my-slider-progress-bar {
+      background: greenyellow;
+      height: 2px;
+      transition: width 400ms ease;
+      width: 0;
+    }
+
+    .carousel-item img{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+
+    .footer_part .single_footer_part{
+      font-size: 20px;
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+
+    .list-unstyled{
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .footer_part .single_footer_part .list-unstyled{
+      color: #7f7f7f;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+
+    .footer_part .copyright_part{
+      margin-top: 45px;
+    }
+
+    .copyright_text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    a{
+      color:#7f7f7f
+    }
+
+    a:hover{
+      color: #ff3368
+    }
+
+    
+    .search-area {
+        position: relative;
+    }
+
+    #search-suggestions {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        display: none;
+    }
+
+    #search-suggestions ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #search-suggestions li {
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    #search-suggestions li:hover {
+        background-color: #f5f5f5;
+    }
+    .single-cart-item {
+      position: relative;
+      /* Add other styles for the single cart item */
+    }
+    
+    .quantity {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+    
+    .quantity button {
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+      background-color: #f2f2f2;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .quantity .quantity-input {
+      width: 40px;
+      height: 30px;
+      text-align: center;
+      border: none;
+      background-color: #f2f2f2;
+    }
+    
+    /* Optional: Style the plus and minus buttons */
+    .quantity button.quantity-minus {
+      border-radius: 50% 0 0 50%;
+    }
+    
+    .quantity button.quantity-plus {
+      border-radius: 0 50% 50% 0;
+    }
+    
+
